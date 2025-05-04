@@ -1,0 +1,35 @@
+# 📘 Book Management System (C++)
+
+A simple console-based Book Management System built using **C++** and **object-oriented programming**.
+
+## 🚀 Features
+- Add new book records (ID, Name, Author)
+- Display all stored books
+- Search books by name or author
+- Extract a specific book by ID
+- Persistent data storage using `.txt` file and `fstream`
+
+## 💡 Concepts Used
+- Classes and Objects
+- File Handling (`fstream`)
+- String handling and input/output
+- Menu-driven interface using loops
+- Conditionals and user interaction
+
+## 🗃️ Data Format
+Books are stored in `bookData.txt` in the following format:
+<book_id><book_name><author_name>
+
+## 🖥️ How to Run
+1. Compile the code using any C++ compiler (e.g. `g++`):
+g++ book_system.cpp -o book_system
+./book_system
+
+
+2. Use the menu to add, view, or search for books.
+
+
+
+
+
+
